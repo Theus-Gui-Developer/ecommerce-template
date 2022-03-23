@@ -42,3 +42,45 @@ function toggleMenu() {
   menu.classList.toggle('active');
   menuToggle.classList.toggle('active');
 }
+
+// Jquery modal click
+$(document).ready(function () {
+  $('.toggle-modal').on('click', function () {
+    $('.modal').toggleClass('active');
+  });
+  // click outside modal
+  $('.modal').on('click', function (e) {
+    if (e.target === this) {
+      $(this).removeClass('active');
+    }
+  });
+});
+
+// Jquery modal navigation mouseover
+$(document).ready(function () {
+  $('.item-1').mouseenter(function () {
+    $('.modal-over-1').toggleClass('active');
+  });
+  $('.item-1').mouseleave(function () {
+    $('.modal-over-1').toggleClass('active');
+  });
+
+});
+
+$(document).ready(function () {
+  $('.item-2').mouseenter(function () {
+    $('.modal-over-2').toggleClass('active');
+  });
+  $('.item-2').mouseleave(function () {
+    $('.modal-over-2').toggleClass('active');
+  });
+})
+
+$(document).ready(function () {
+  $('.item-3').mouseenter(function () {
+    $('.modal-over-3').toggleClass('active');
+  });
+  $('.item-3').mouseleave(function () {
+    $('.modal-over-3').toggleClass('active');
+  });
+})

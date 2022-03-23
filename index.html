@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="" />
+    <meta name="description" content="Template E-commerce" />
     <link rel="stylesheet" href="/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,88 +19,237 @@
       integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc"
       crossorigin="anonymous"
     ></script>
-
     <title>ecommerce</title>
   </head>
 
   <body>
     <header class="container">
-      <div class="content">
-        <nav class="two">
-          <h1>LOGO</h1>
-
-          <div class="input-search">
-            <input type="text" placeholder="pesquise por seu produto" />
-            <span class="icon-search">
-              <i class="fas fa-search"></i>
-            </span>
-          </div>
-
-          <div class="link-login">
-            <p>Bem vindo :)</p>
-            <a href="#">Entre ou cadastre-se</a>
-          </div>
-
-          <a href="#">
-            <i class="fas fa-map-marker-alt"></i>
-            <p>
-              Econtre<br />
-              lojas perto de você
-            </p>
-          </a>
-
-          <a href="#">
-            <i class="fas fa-heart"></i>
-          </a>
-
-          <a href="#">
-            <i class="fas fa-shopping-cart"></i>
-          </a>
-        </nav>
-
-        <nav class="toggle-menu">
+      <!--  -->
+      <div class="nav-colunm">
+        <!--  -->
+        <div class="content">
           <!--  -->
-          <div class="content-toggle">
+          <nav class="two">
             <h1>LOGO</h1>
-            <div onclick="toggleMenu()" class="menu">
-              <div></div>
-              <div></div>
-              <div></div>
-            </div>
-          </div>
-          <!--  -->
-          <div class="toglle-list">
+
             <div class="input-search">
               <input type="text" placeholder="pesquise por seu produto" />
               <span class="icon-search">
                 <i class="fas fa-search"></i>
               </span>
             </div>
-
-            <a onclick="toggleMenu()" href="#">
+            <!--  -->
+            <div class="link-login toggle-modal">
+              <p>Bem vindo :)</p>
+              <a href="#">Entre ou cadastre-se</a>
+            </div>
+            <!--  -->
+            <a href="#">
               <i class="fas fa-map-marker-alt"></i>
               <p>
                 Econtre<br />
                 lojas perto de você
               </p>
             </a>
-
-            <a onclick="toggleMenu()" href="#">
+            <!--  -->
+            <a href="#">
               <i class="fas fa-heart"></i>
-              <p>Favoritos</p>
             </a>
-
-            <a onclick="toggleMenu()" href="#">
+            <!--  -->
+            <a href="#">
               <i class="fas fa-shopping-cart"></i>
-              <p>Carrinho</p>
             </a>
+          </nav>
+          <!--  -->
+          <nav class="toggle-menu">
+            <!--  -->
+            <div class="content-toggle">
+              <h1>LOGO</h1>
+              <div onclick="toggleMenu()" class="menu">
+                <div></div>
+                <div></div>
+                <div></div>
+              </div>
+            </div>
+            <!--  -->
+            <div class="toglle-list">
+              <div class="input-search">
+                <input type="text" placeholder="pesquise por seu produto" />
+                <span class="icon-search">
+                  <i class="fas fa-search"></i>
+                </span>
+              </div>
+              <!--  -->
+              <a onclick="toggleMenu()" href="#">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>
+                  Econtre<br />
+                  lojas perto de você
+                </p>
+              </a>
+              <!--  -->
+              <a onclick="toggleMenu()" href="#">
+                <i class="fas fa-heart"></i>
+                <p>Favoritos</p>
+              </a>
+              <!--  -->
+              <a onclick="toggleMenu()" href="#">
+                <i class="fas fa-shopping-cart"></i>
+                <p>Carrinho</p>
+              </a>
+              <!--  -->
+              <div class="link-login toggle-modal">
+                <a href="#">Entre ou cadastre-se</a>
+              </div>
+              <!--  -->
+            </div>
+          </nav>
+          <!--  -->
+        </div>
+        <!--  -->
+        <div class="content">
+          <!--  -->
+          <div class="nav-modal">
+            <!--  -->
+            <ul>
+              <li class="item-1">
+                <p>
+                  <i class="fas fa-bars"></i>
+                  Todos os Topicos
+                </p>
+                <!--  -->
+                <div class="modal-over-1">
+                  <br />
+                  <div class="list-modals">
+                    <h2>Tem no e-commerce</h2>
+                    <a href="#">Acessórios de Tecnologia</a>
+                    <a href="#">Ar e Ventilação</a>
+                    <a href="#">Artesanato</a>
+                    <a href="#">Artigos para Festa</a>
+                    <a href="#">Áudio</a>
+                    <a href="#">Automotivo</a>
+                    <a href="#">Bebês</a>
+                    <a href="#">Beleza & Perfumaria</a>
+                    <a href="#">Bem-estar Sexual</a>
+                    <a href="#">Brinquedos</a>
+                    <a href="#">Cama, Mesa e Banho</a>
+                    <a href="#">Câmeras e Drones</a>
+                    <a href="#">Casa e Construção</a>
+                    <a href="#">Casa Inteagente</a>
+                    <a href="#">Celular e Smartphone</a>
+                    <a href="#">Colchões</a>
+                    <a href="#">Comércio e Indústria</a>
+                  </div>
+                  <!--  -->
+                  <div class="list-modals">
+                    <h2>Serviços</h2>
+                    <a href="#">Acessórios de Tecnologia</a>
+                    <a href="#">Ar e Ventilação</a>
+                    <a href="#">Artesanato</a>
+                    <a href="#">Artigos para Festa</a>
+                    <a href="#">Áudio</a>
+                    <a href="#">Automotivo</a>
+                    <a href="#">Bebês</a>
+                    <a href="#">Beleza & Perfumaria</a>
+                    <a href="#">Bem-estar Sexual</a>
+                    <a href="#">Brinquedos</a>
+                    <a href="#">Cama, Mesa e Banho</a>
+                    <a href="#">Câmeras e Drones</a>
+                    <a href="#">Casa e Construção</a>
+                    <a href="#">Casa Inteagente</a>
+                    <a href="#">Celular e Smartphone</a>
+                    <a href="#">Colchões</a>
+                    <a href="#">Comércio e Indústria</a>
+                  </div>
+                  <!--  -->
+                  <div class="list-modals">
+                    <h2>Outros Topicos</h2>
+                    <a href="#">Acessórios de Tecnologia</a>
+                    <a href="#">Ar e Ventilação</a>
+                    <a href="#">Artesanato</a>
+                    <a href="#">Artigos para Festa</a>
+                    <a href="#">Áudio</a>
+                    <a href="#">Automotivo</a>
+                    <a href="#">Bebês</a>
+                    <a href="#">Beleza & Perfumaria</a>
+                    <a href="#">Bem-estar Sexual</a>
+                    <a href="#">Brinquedos</a>
+                    <a href="#">Cama, Mesa e Banho</a>
+                    <a href="#">Câmeras e Drones</a>
+                    <a href="#">Casa e Construção</a>
+                    <a href="#">Casa Inteagente</a>
+                    <a href="#">Celular e Smartphone</a>
+                    <a href="#">Colchões</a>
+                    <a href="#">Comércio e Indústria</a>
+                  </div>
+                  <!--  -->
+                </div>
+              </li>
+              <!--  -->
+              <li class="item-2">
+                <p>Informática</p>
+                <div class="modal-over-2">
+                  <br />
+                  <div class="list-modals">
+                    <a href="#">Acessórios de Tecnologia</a>
+                    <a href="#">Ar e Ventilação</a>
+                    <a href="#">Artesanato</a>
+                    <a href="#">Artigos para Festa</a>
+                    <a href="#">Áudio</a>
+                    <a href="#">Automotivo</a>
+                    <a href="#">Bebês</a>
+                    <a href="#">Beleza & Perfumaria</a>
+                    <a href="#">Bem-estar Sexual</a>
+                    <a href="#">Brinquedos</a>
+                    <a href="#">Cama, Mesa e Banho</a>
+                    <a href="#">Câmeras e Drones</a>
+                    <a href="#">Casa e Construção</a>
+                    <a href="#">Casa Inteagente</a>
+                    <a href="#">Celular e Smartphone</a>
+                    <a href="#">Colchões</a>
+                    <a href="#">Comércio e Indústria</a>
+                  </div>
+                </div>
+              </li>
+              <!--  -->
+              <li class="item-3">
+                <p>Celulares</p>
+                <div class="modal-over-3">
+                  <br />
+                  <div class="list-modals">
+                    <a href="#">Acessórios de Tecnologia</a>
+                    <a href="#">Ar e Ventilação</a>
+                    <a href="#">Artesanato</a>
+                    <a href="#">Artigos para Festa</a>
+                    <a href="#">Áudio</a>
+                    <a href="#">Automotivo</a>
+                    <a href="#">Bebês</a>
+                    <a href="#">Beleza & Perfumaria</a>
+                    <a href="#">Bem-estar Sexual</a>
+                    <a href="#">Brinquedos</a>
+                    <a href="#">Cama, Mesa e Banho</a>
+                    <a href="#">Câmeras e Drones</a>
+                    <a href="#">Casa e Construção</a>
+                    <a href="#">Casa Inteagente</a>
+                    <a href="#">Celular e Smartphone</a>
+                    <a href="#">Colchões</a>
+                    <a href="#">Comércio e Indústria</a>
+                  </div>
+                </div>
+              </li>
+              <!--  -->
+            </ul>
+            <!--  -->
           </div>
-        </nav>
+          <!--  -->
+        </div>
+        <!--  -->
       </div>
       <hr class="decoration" />
     </header>
-
+    <!--  -->
     <main class="container">
+      <!--  -->
       <div class="content">
         <!--  -->
         <section class="slider">
@@ -108,20 +257,20 @@
             <div class="slider-item">
               <img src="/img/promotion.jpg" alt="Promoção 30%" />
             </div>
-
+            <!--  -->
             <div class="slider-item">
               <img src="/img/notebook-hp.png" alt="" />
             </div>
-
+            <!--  -->
             <div class="slider-item">
               <img src="/img/promotion-10off.png" alt="" />
             </div>
-
+            <!--  -->
             <div class="slider-item">
               <img src="/img/notebook-vaio.png" alt="" />
             </div>
           </div>
-
+          <!--  -->
           <div class="container-btn-slider">
             <button class=".slider-arrow-left" onclick="sliderPrev()">
               <i class="fas fa-chevron-left"></i>
@@ -131,22 +280,25 @@
             </button>
           </div>
         </section>
-
         <!--  -->
         <section class="promotion">
-          <img src="/img/promotion-10off.png" alt="Promoção 10% off" />
+          <img src="/img/vista.png" alt="Promoção 10% off" />
         </section>
         <!--  -->
         <section class="cards-promotion">
+          <!--  -->
           <div class="card">
             <img src="/img/promotion-card.jpg" alt="Promoção Oreo" />
           </div>
+          <!--  -->
           <div class="card">
             <img src="/img/promotion-card.jpg" alt="Promoção Oreo" />
           </div>
+          <!--  -->
           <div class="card">
             <img src="/img/promotion-card.jpg" alt="Promoção Oreo" />
           </div>
+          <!--  -->
         </section>
         <!--  -->
         <section class="topics">
@@ -180,36 +332,42 @@
               </div>
               <p>Games</p>
             </div>
+            <!--  -->
             <div class="circle-content">
               <div class="circle">
                 <i class="fas fa-paint-brush"></i>
               </div>
               <p>Beleza</p>
             </div>
+            <!--  -->
             <div class="circle-content">
               <div class="circle">
                 <i class="fas fa-book-open"></i>
               </div>
               <p>Cursos</p>
             </div>
+            <!--  -->
             <div class="circle-content">
               <div class="circle">
                 <i class="fas fa-laptop"></i>
               </div>
               <p>Informática</p>
             </div>
+            <!--  -->
             <div class="circle-content">
               <div class="circle">
                 <i class="fas fa-tshirt"></i>
               </div>
               <p>Moda</p>
             </div>
+            <!--  -->
             <div class="circle-content">
               <div class="circle">
                 <i class="fas fa-plus"></i>
               </div>
               <p>Explorar</p>
             </div>
+            <!--  -->
           </div>
         </section>
         <!--  -->
@@ -219,7 +377,7 @@
             <p>Receba ofertas recomendadas e preços exclusivos</p>
             <a href="#">Leia Política de Privacidade</a>
           </div>
-
+          <!--  -->
           <form class="info">
             <input type="text" placeholder="Digite seu nome" />
             <input type="text" placeholder="Digite seu email" />
@@ -276,7 +434,6 @@
               </div>
             </a>
             <!--  -->
-
             <a href="#">
               <div class="card-product">
                 <div>
@@ -298,7 +455,6 @@
                 </p>
               </div>
             </a>
-
             <!--  -->
             <a href="#">
               <div class="card-product">
@@ -373,7 +529,6 @@
               </div>
             </a>
             <!--  -->
-
             <a href="#">
               <div class="card-product">
                 <div>
@@ -395,7 +550,6 @@
                 </p>
               </div>
             </a>
-
             <!--  -->
             <a href="#">
               <div class="card-product">
@@ -469,7 +623,6 @@
               </div>
             </a>
             <!--  -->
-
             <a href="#">
               <div class="card-product">
                 <div>
@@ -491,7 +644,6 @@
                 </p>
               </div>
             </a>
-
             <!--  -->
             <a href="#">
               <div class="card-product">
@@ -524,19 +676,23 @@
         <!--  -->
         <section class="topics">
           <h2>Serviços</h2>
+          <!--  -->
           <div class="container-cicles">
+            <!--  -->
             <div class="circle-content">
               <div class="circle">
                 <i class="fas fa-user"></i>
               </div>
               <p>Cliente</p>
             </div>
+            <!--  -->
             <div class="circle-content">
               <div class="circle">
                 <i class="fas fa-phone-volume"></i>
               </div>
               <p>Televendas</p>
             </div>
+            <!--  -->
             <div class="circle-content">
               <div class="circle">
                 <i class="fas fa-search-dollar"></i>
@@ -546,32 +702,114 @@
                 de fatura
               </p>
             </div>
+            <!--  -->
             <div class="circle-content">
               <div class="circle">
                 <i class="fas fa-boxes"></i>
               </div>
               <p>E-commerce +</p>
             </div>
+            <!--  -->
             <div class="circle-content">
               <div class="circle">
                 <i class="fas fa-car"></i>
               </div>
               <p>Consórcio</p>
             </div>
+            <!--  -->
             <div class="circle-content">
               <div class="circle">
                 <i class="fas fa-medal"></i>
               </div>
               <p>Garantia</p>
             </div>
+            <!--  -->
           </div>
         </section>
         <!--  -->
       </div>
+      <!--  -->
     </main>
     <footer class="container">
       <hr class="decoration-footer" />
       <h1>Feito por Matheus Guilherme</h1>
     </footer>
+    <!-- modal login -->
+    <div class="modal">
+      <!--  -->
+      <div class="modal-content">
+        <!--  -->
+        <div class="modal-header">
+          <h2>LOGIN</h2>
+          <span class="close toggle-modal">&times;</span>
+        </div>
+        <!--  -->
+        <div class="modal-body">
+          <!--  -->
+          <form class="form" action="">
+            <!--  -->
+            <div class="form-group">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Digite seu E-mail"
+              />
+            </div>
+            <!--  -->
+            <div class="form-group">
+              <!--  -->
+              <input
+                type="password"
+                name="senha"
+                id="senha"
+                placeholder="Digite sua Senha"
+              />
+              <!--  -->
+              <div class="reset-password">
+                <a href="#">Esqueci minha senha</a>
+              </div>
+            </div>
+            <!--  -->
+            <div class="form-group">
+              <button type="submit">Entrar</button>
+            </div>
+            <!--  -->
+          </form>
+        </div>
+        <!--  -->
+        <div class="modal-footer">
+          <p>ou faça login com</p>
+          <div class="social-media">
+            <a href="#">
+              <span class="icon-facebook">
+                <i class="fab fa-facebook-f"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span class="icon-google">
+                <i class="fab fa-google"></i>
+              </span>
+            </a>
+            <a href="#">
+              <span class="icon-linkedin">
+                <i class="fab fa-linkedin-in"></i>
+              </span>
+            </a>
+          </div>
+        </div>
+        <!--  -->
+        <div>
+          <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- include jQuery :) -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.js"
+      integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
